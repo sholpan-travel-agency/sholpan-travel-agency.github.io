@@ -1,0 +1,426 @@
+body {
+	background: #fff;
+}
+
+.tour-header {
+	border-bottom: 1px solid #e3e2e7;
+	padding-bottom: 30px;
+	margin-bottom: 70px;
+}
+
+.tour-nav {
+	margin-top: 20px;
+}
+
+.tour-header .menu-toggle span {
+	background: #000;
+}
+
+.logo-tour a {
+	color: #572F59;
+	text-shadow: -1px -1px 24px rgba(0, 0, 0, 0.25);
+}
+
+.tour-menu li a {
+	color: #aaaaaa;
+	font-weight: 700;
+}
+
+.tour-menu li a:hover {
+	color: #572f59;
+	border-bottom: 2px solid #572f59;
+}
+
+.tour-date {
+	background: #F6F6F6;
+	padding: 17px 25px;
+	font-size: 10px;
+	text-align: center;
+	border-radius: 50%;
+	transition: all 0.4s;
+	cursor: pointer;
+}
+
+.tour-date span {
+	display: block;
+	color: #aaaaaa;
+	font-size: 3em;
+}
+
+.tour-date:hover {
+	color: #fff;
+	background: #572f59;
+}
+
+.tour-date:hover span {
+	color: #fff;
+}
+
+.tour-social__list li {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.tour-social__list li a {
+	transition: all 0.4s;
+	color: #D0D0D4;
+}
+
+.tour-social__list li a:hover {
+	color: #572f59;
+}
+
+.tour-main-info {
+	display: flex;
+	align-items: flex-start;
+}
+
+.tour-info {
+	width: 662px;
+	margin-left: 15px;
+}
+
+.tour-info__title h1 {
+	font-weight: 400;
+	font-size: 36px;
+}
+
+.tour-info__title p {
+	margin-top: 20px;
+	font-size: 13px;
+	color: #D0D0D4;
+}
+
+.tour-info__title p span {
+	color: #572f59;
+}
+
+.tour-info__picture figure {
+	width: 100%;
+	height: 290px;
+	background-position-y: -50px;
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../../img/tour-1-b.jpg');
+}
+
+.tour-info__img__item {
+	margin-bottom: 30px;
+}
+
+.tour-more {
+	width: 27%;
+}
+
+.tour-more__item {
+	margin-bottom: 30px;
+}
+
+.tour-more__date {
+	margin: 20px 0 10px;
+}
+
+.tour-more__date p {
+	color: rgb(170, 170, 170);
+	font-size: 14px;
+}
+
+.tour-more__date p span {
+	color: #572F59;
+}
+
+.tour-more__img {
+	height: 240px;
+	overflow: hidden;
+}
+
+.tour-more__img img {
+	width: 100%;
+	min-height: 100%;
+}
+
+.tour-more__title h3 {
+	text-transform: uppercase;
+}
+
+.tour-desc__title {
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+
+.tour-desc__place {
+	margin: 10px 0;
+	color: #aaaaaa;
+}
+
+.tour-desc__text {
+	font-size: 14px;
+	color: #aaaaaa;
+	line-height: 1.5em;
+}
+
+.tour-wrap {
+	margin-bottom: 60px;
+}
+
+.tour-info__picture,
+.tour-info__picture__spain,
+.tour-info__picture__uk,
+.tour-info__picture__ee {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* Spain */
+
+.tour-info__picture__spain {
+	height: 300px;
+}
+
+.tour-info__picture__spain figure {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url('../../img/tour-2-b.jpg');
+}
+
+/* Eastern Europe */
+
+.tour-info__picture__ee {
+	height: 500px;
+}
+
+.tour-info__picture__ee figure {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url('../../img/tour-3-b.jpg');
+}
+
+/* United Kingdom */
+
+.tour-info__picture__uk {
+	height: 500px;
+}
+
+.tour-info__picture__uk figure {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url('../../img/tour-4-b.jpg');
+}
+
+/* Tour Banner */
+
+.tour-banner {
+	background-image: url('../../img/tour-bg.jpg');
+	background-position-y: -75px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.tour-banner__title {
+	text-align: center;
+	color: #fff;
+	padding: 190px 0;
+}
+
+.tour-banner__title h1 {
+	font-size: 4em;
+	font-weight: 400;
+}
+
+.tour-banner__title p {
+	font-style: italic;
+	font-size: 1.3em;
+	margin-top: 10px;
+}
+
+.tour-banner-head {
+	margin-bottom: 0;
+}
+
+/* Tour-list */
+
+.tour-list {
+	background: #F5F5F5;
+}
+
+.tour-list-title {
+	padding: 30px 0;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.tour-list__item {
+	display: flex;
+	padding-bottom: 40px;
+}
+
+.tour-list__img img {
+	width: 100%;
+	height: 100%;
+}
+
+.tour-list__img {
+	height: 300px;
+	width: 70%;
+	margin-right: 30px;
+}
+
+.tour-list__info {
+	margin-top: 20px;
+}
+
+.tour-list__info__date {
+	color: #aaaaaa;
+}
+
+.tour-list__info__title {
+	margin: 15px 0 10px;
+	font-size: 1.5em;
+}
+
+.tour-list__info__desc {
+	color: #aaaaaa;
+	line-height: 1.5em;
+	font-size: 14px;
+}
+
+.tour-list__info a {
+	display: inline-block;
+	margin-top: 20px;
+	text-decoration: none;
+	color: #fff;
+	background: #572F59;
+	padding: 10px 40px 12px;
+	border-radius: 25px;
+	transition: all 0.4s;
+}
+
+.tour-list__info a:hover {
+	background: #cd5823;
+}
+
+@media (max-width: 1210px) {
+	.tour-banner__title {
+		padding: 150px;
+	}
+}
+
+@media (max-width: 1110px) {
+	.tour-more {
+		display: none;
+	}
+
+	.tour-banner__title h1 {
+		font-size: 3em;
+	}
+
+	.tour-info__img__item {
+		width: 23%;
+		overflow: hidden;
+	}
+
+	.tour-info {
+		width: 100%;
+	}
+
+	.tour-info__picture__spain figure {
+		background-size: cover;
+	}
+}
+
+@media (max-width: 1060px) {
+	.tour-banner {
+		background-position-y: 0;
+	}
+}
+
+@media (max-width: 882px) {
+	.tour-banner__title h1 {
+		font-size: 2.5em;
+	}
+
+	.tour-banner__title {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.tour-list__img {
+		width: 100%;
+	}
+
+	.tour-list__info {
+		width: 60%;
+	}
+}
+
+@media (max-width: 660px) {
+	.footer-desc {
+		padding-top: 60px;
+	}
+
+	.tour-banner__title h1 {
+		font-size: 2em;
+	}
+
+	.tour-list__item {
+		display: block;
+	}
+
+	.tour-list__info {
+		width: 100%;
+	}
+
+	.tour-info__picture__uk {
+		height: 400px;
+	}
+}
+
+@media (max-width: 540px) {
+	.tour-header {
+		margin-bottom: 20px;
+	}
+
+	.tour-info {
+		margin-left: 0;
+	}
+
+	.tour-main-info {
+		display: block;
+	}
+
+	.tour-social {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 20px;
+	}
+
+	.tour-social__list {
+		display: flex;
+	}
+
+	.tour-social__list li {
+		margin-right: 30px;
+		font-size: 19px;
+	}
+
+	.tour-social__list li:last-child {
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 460px) {
+	.tour-info__picture__uk {
+		height: 340px;
+	}
+}
